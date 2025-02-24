@@ -1,0 +1,32 @@
+/* Az egész oldal középre igazítása */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* A gomb dizájnja */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50; /* Zöld szín */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Gomb hover effekt */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Gomb fokozott aktív állapot */
+button:active {
+    background-color: #387a3b;
+}
